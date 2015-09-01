@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Peyo;
+    src: url('../fonts/peyo-regular.ttf') format('truetype');
+}
+
+.font-fawcett {
+  font-family: Peyo;
+}
+
+.brand-heading {
+	color: #000000 !important;
+	font-size: 150px !important;
+}
+
+.font-little {
+	font-size: 15px;
+}
