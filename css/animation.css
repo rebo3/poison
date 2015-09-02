@@ -1,6 +1,9 @@
+/*! 
+*237px;
+*/
 .content-animated {
-  width:237px;
-  font-size:36px;
+  width: 500px;
+  font-size:30px;
   line-height:40px;
   color:#ecf0f1;
   height:40px;
@@ -33,16 +36,18 @@
 }
 
 .visible-animated {
+	width: 500px;
   float:left;
   font-weight:600;
   overflow:hidden;
   height:40px;   
 }
 
-p {
+p.animated {
   display:inline;
   float:left;
-  margin:0;
+  margin-right:10px ;
+  font-size: 30px;
 }
 
 ul.animated {
@@ -56,7 +61,7 @@ ul.animated {
   -o-animation:6s linear 0s normal none infinite change;
 }
 
-ul li {
+ul.animated li.animated {
   line-height:40px;
   margin:0;
 }
