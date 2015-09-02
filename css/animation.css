@@ -2,7 +2,7 @@
 *237px;
 */
 .content-animated {
-  width: 500px;
+  width: 90%;
   font-size:30px;
   line-height:40px;
   color:#ecf0f1;
@@ -36,7 +36,7 @@
 }
 
 .visible-animated {
-	width: 500px;
+	width: 90%;
   float:left;
   font-weight:600;
   overflow:hidden;
