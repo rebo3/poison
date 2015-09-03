@@ -34,6 +34,11 @@
     -o-animation:2s ease-out 0s normal none infinite opacity;
   }
 }
+@media (max-width: 768px) { 
+        .content-animated {
+          font-size: 25px;
+        }
+}
 
 .visible-animated {
 	width: 90%;
@@ -50,6 +55,12 @@ p.animated {
   font-size: 30px;
 }
 
+@media (max-width: 768px) { 
+  p.animated {
+  	font-size: 25px;
+   }
+}
+
 ul.animated {
   margin-top:0;
   padding-left:110px;
@@ -64,6 +75,12 @@ ul.animated {
 ul.animated li.animated {
   line-height:40px;
   margin:0;
+}
+
+@media (max-width: 768px) { 
+  li.animated {
+  	margin-top: 0px !important; 
+   }
 }
 
 @-webkit-keyframes opacity {
