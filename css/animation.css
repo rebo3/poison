@@ -34,18 +34,13 @@
     -o-animation:2s ease-out 0s normal none infinite opacity;
   }
 }
-@media (max-width: 768px) { 
-        .content-animated {
-          font-size: 25px;
-        }
-}
 
 .visible-animated {
 	width: 90%;
   float:left;
   font-weight:600;
   overflow:hidden;
-  height:50px;   
+  height:45px;   
 }
 
 p.animated {
@@ -53,12 +48,6 @@ p.animated {
   float:left;
   margin-right:10px ;
   font-size: 30px;
-}
-
-@media (max-width: 768px) { 
-  p.animated {
-  	font-size: 25px;
-   }
 }
 
 ul.animated {
@@ -78,10 +67,44 @@ ul.animated li.animated {
 }
 
 @media (max-width: 768px) { 
+  p.animated {
+  	font-size: 25px;
+  }
+  
   li.animated {
   	margin-top: 0px !important; 
    }
+
+  .visible-animated {
+		margin-left: 25px; 
+	}
+
+	@media (max-width: 768px) { 
+  .content-animated {
+    font-size: 25px;
+  }
 }
+
+/* IPHONE */
+@media (max-width: 320px) { 
+  p.animated {
+  	font-size: 20px;
+  }
+  
+  li.animated {
+  	margin-top: -2px !important; 
+   }
+
+  .visible-animated {
+		margin-left: 45px; 
+	}
+
+	@media (max-width: 768px) { 
+  .content-animated {
+    font-size: 20px;
+  }
+}
+
 
 @-webkit-keyframes opacity {
   0%   {opacity:0;}
