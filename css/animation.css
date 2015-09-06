@@ -66,6 +66,7 @@ ul.animated li.animated {
   margin:0;
 }
 
+/* PHONES */
 @media (max-width: 768px) { 
   p.animated {
   	font-size: 25px;
@@ -84,7 +85,7 @@ ul.animated li.animated {
   }
 }
 
-/* IPHONE */
+/* IPHONES 4 & 5 */
 @media (max-width: 320px) { 
   p.animated {
   	font-size: 20px;
